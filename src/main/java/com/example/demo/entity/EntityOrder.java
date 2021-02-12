@@ -25,6 +25,8 @@ import java.util.List;
 public class EntityOrder
 {
 
+
+
     @Id
     @ApiModelProperty("Order id is unique identifier of an Order")
     @Column(name = "Order_Id")

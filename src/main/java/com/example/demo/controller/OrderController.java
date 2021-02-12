@@ -74,7 +74,6 @@ public class OrderController extends BaseRestController
     @ApiResponses(value = {@ApiResponse(code = 200, message = "Order cancelled successfully ."),
             @ApiResponse(code = 400, message = "The request is invalid. Please perform the correct operation.")})
     public ResponseEntity<EntityOrder> cancelOrder(@PathVariable("id") Long orderId) {
-
         try
         {
             EntityOrder orderEntityResponse = ordrSvc.cancelOrderById(orderId);
@@ -82,7 +81,6 @@ public class OrderController extends BaseRestController
         } catch(OrderNotFoundException e){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Order Not Found");
         }
-
     }
 
     @PostMapping(value = "/order/bulk")
