@@ -1,9 +1,9 @@
 # EcomOrder
-Placing bulk orders using Kafka Producer Subscriber.
-Containerized service using docker.
-Made blueprints of APIs using Swagger.
-Proper ErrorCodes and Exceptions Defined.
-PostGreSql as DB   
+- Placing bulk orders using Kafka Producer Subscriber.
+- Containerized service using docker.
+- Made blueprints of APIs using Swagger.
+- Proper ErrorCodes and Exceptions Defined.
+- PostGreSql as DB   
 
 
 #Orders 
